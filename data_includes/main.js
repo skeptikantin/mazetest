@@ -8,7 +8,7 @@ PennController.ResetPrefix(null) // Shorten command names (keep this line here)
 
 // Show the 'intro' trial first, then all the 'experiment' trials in a random order
 // then send the results and finally show the trial labeled 'bye'
-Sequence( "intro", "instructions", randomize("training"), randomize("experiment") , SendResults() , "goodbye" )
+Sequence( "intro", "instructions", randomize("training"), "intermission", randomize("experiment") , SendResults() , "goodbye" )
 
 
 // What is in Header happens at the beginning of every single trial
@@ -53,8 +53,8 @@ newTrial("instructions" ,
     newText("<p>In this experiment, your task is to read sentences word-by-word, as quickly as possible.<br/>" +
         "To read the sentence, you are given two words to choose from. Only one of the words is a plausible continuation of the sentence.</p>" +
         "<p>Use the left and right arrow keys to make your choice.</p>" +
-        "<p>If you choose the wrong word, the sentence disappears and you will be given a new sentence.</p>" +
-        "<p>Please be as quickly and accurately as possible.</p>." +
+        "<p>If you choose the wrong word, the sentence aborts and you will be given a new sentence.</p>" +
+        "<p>Please make your choice as quickly and accurately as possible.</p>." +
         "<p>There will be some practice sentences to familiarize you with the task.</p>")
         .css("font-size", "1.5em")
         .css("font-family", "Open Sans")
@@ -68,7 +68,7 @@ newTrial("instructions" ,
         .print()
     ,
     newButton("OK")
-        .size(400)
+        .size(200)
         .center()
         .print()
         .wait()
@@ -106,7 +106,7 @@ newTrial("intermission" ,
         .print()
     ,
     newButton("OK")
-        .size(400)
+        .size(200)
         .center()
         .print()
         .wait()
@@ -132,19 +132,18 @@ Template("sentences.csv", row =>
 SendResults("send") // send results to server before good-bye message
 
 newTrial("goodbye",
-    newText("<p>Thank you for your participation!</p>")
+    newText("<p>Thank you very much for your time and effort!</p>")
         .css("font-size", "2em")
         .css("font-family", "Open Sans")
         .center()
         .print()
     ,
-    newText("<a href='https://www.pcibex.net/'>Click here to validate your participation.</a>")
+    newText("<a href='https://www.sfla.ch/'>Click here to validate your participation.</a>")
         .css("font-size", "1.5em")
         .css("font-family", "Open Sans")
         .center()
         .print()
     ,
-    //exitFullscreen(),
     newButton("void")
         .wait()
 ) // the good-bye message
