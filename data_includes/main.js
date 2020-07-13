@@ -30,13 +30,13 @@ newTrial( "intro" ,
 
     newText("Welcome to suz’ maze experiment.")
         .css("font-size", "2em")
-        .css("font-family", "Open Sans")
+        .css("font-family", "Open Sans", "Monaco", "Noto Sans", "Comic Sans")
         .center()
         .print()
     ,
     newText("<p>Please enter your name below and press enter:</p>")
         .css("font-size", "1.5em")
-        .css("font-family", "Open Sans")
+        .css("font-family", "Open Sans", "Monaco", "Noto Sans", "Comic Sans")
         .center()
         .print()
     ,
@@ -64,7 +64,7 @@ newTrial("instructions" ,
     ,
     newText("<p>Click OK when you are ready to begin.</p>")
         .css("font-size", "1em")
-        .css("font-family", "Open Sans")
+        .css("font-family", "Open Sans", "Monaco", "Noto Sans", "Comic Sans")
         .center()
         .print()
     ,
@@ -80,7 +80,7 @@ Template("training.csv", row =>
 
         newController("Maze", {s: row.Sentence, a: row.Distractor})
             .css("font-size", "1.5em")
-            .css("font-family", "Open Sans")
+            .css("font-family", "Open Sans", "Monaco", "Noto Sans", "Comic Sans")
             .print()
             .log()
             .wait()
@@ -100,7 +100,7 @@ newTrial("intermission" ,
         "but please pause only <b>before</b> choosing the first word of a new sentence.</p>" +
         "Thanks!")
         .css("font-size", "1.5em")
-        .css("font-family", "Open Sans")
+        .css("font-family", "Open Sans", "Monaco", "Noto Sans", "Comic Sans")
         .center()
         .print()
     ,
