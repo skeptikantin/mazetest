@@ -84,7 +84,7 @@ Template("training.csv", row =>
             .print()
             .log()
             .wait()
-            .failure(newText ("oops!")
+            .failure(newText ("oops!"))
             .remove()
         ,
         // newTimer(500).start().wait()
