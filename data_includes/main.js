@@ -50,7 +50,7 @@ newTrial( "intro" ,
 
 newTrial("instructions" ,
 
-    newText("<p>In this experiment, your task is to read sentences word-by-word, as quickly as possible.<br/>" +
+    newText("<p>In this experiment, your task is to read sentences word-by-word.<br/>" +
         "To read the sentence, you are given two words to choose from.<br/>" +
         "Only one of the words is a plausible continuation of the sentence.</p>" +
         "<p>Use the <b>left</b> and <b>right</b> arrow keys to make your choice.</p>" +
