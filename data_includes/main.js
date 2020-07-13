@@ -51,13 +51,13 @@ newTrial( "intro" ,
 newTrial("instructions" ,
 
     newText("<p>In this experiment, your task is to read sentences word-by-word.<br/>" +
-        "To read the sentence, you are given two words to choose from.<br/>" +
-        "Only one of the words is a plausible continuation of the sentence.</p>" +
+        "To read, you are given two words to choose from, which appear side by side." +
+        "Only <b>one</b> of the words is a plausible continuation of the sentence.</p>" +
         "<p>Use the <b>left</b> and <b>right</b> arrow keys to make your choice.</p>" +
         "<p>If you choose the wrong word, the sentence aborts and you will be given a new sentence.</p>" +
-        "<p>Please make your choice as quickly and accurately as possible.<br/>." +
-        "There will be practice sentences to familiarize you with the task.</p>")
-        .css("font-size", "1em")
+        "<p><b>Please make your choices as quickly and as accurately as possible.</b></p>>" +
+        "<p>There will be practice sentences to familiarize you with the task.</p>")
+        .css("font-size", "1.5em")
         .css("font-family", "Open Sans")
         .center()
         .print()
@@ -94,14 +94,16 @@ Template("training.csv", row =>
 
 newTrial("intermission" ,
 
-    newText("<p>Okay, this should be enough practice. Remember try to pick the correct word, but also to do so as quickly as possible.</p>")
+    newText("<p>Well done, this should be enough practice.<br/>" +
+        "Remember to try and pick the correct word,<br/>" +
+        "but also to read as quick as possible.</p>")
         .css("font-size", "1.5em")
         .css("font-family", "Open Sans")
         .center()
         .print()
     ,
-    newText("<p>Click OK when you are ready to begin the main experiment.</p>")
-        .css("font-size", "1.5em")
+    newText("<p>Click OK when you are ready to proceed to the main experiment.</p>")
+        .css("font-size", "1em")
         .css("font-family", "Open Sans")
         .center()
         .print()
@@ -149,15 +151,5 @@ newTrial("goodbye",
         .wait()
 ) // the good-bye message
 
-// Spaces and linebreaks don't matter to the script: we've only been using them for the sake of readability
-newTrial( "bye" ,
-    newText("Thank you for your participation!")
-        .css("font-size", "2em")
-        .css("font-family", "Open Sans")
-        .center()
-        .print()
-    ,
-    newButton().wait()  // Wait for a click on a non-displayed button = wait here forever
-)
 .setOption( "countsForProgressBar" , false )
 // Make sure the progress bar is full upon reaching this last (non-)trial
