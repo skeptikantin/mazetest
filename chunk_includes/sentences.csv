@@ -1,5 +1,4 @@
 ﻿Type,Index,Sentence,Distractor,RUB
-sample,1,The dog chased the cat around and around the house.,x-x-x deny ounces hour adds accept etc policy jack today.,0 1 2 3 4 5 6 7 8 9
-sample,2,"The cat ran far, far away from the dog.","x-x-x deny mid glad, goal port anti bet sir.",0 1 2 3 4 5 6 7 8
-sub_rel,3,The cat who the dog scared hid in a box.,x-x-x fail pre etc via salary broaden union fund nor.,pre_1 pre_2 who art noun verb main_verb post_1 post_2 post_3
-obj_rel,3,The dog who scared the cat sniffed around the couch.,x-x-x fail pre salary etc via broaden union fund nor.,pre_1 pre_2 who verb art noun main_verb post_1 post_2 post_3
+real,1,The Memo is the best python advisor on the planet.,x-x-x Outs mid ago went braces clarify oh glad inches.,0 1 2 3 4 5 6 7 8 9
+real,2,The Memo is so devoted to friends.,x-x-x Bred nice jack raiders fell removed.,0 1 2 3 4 5 6
+real,3,The Memo can solve all the problems.,x-x-x Slid mid folks glad lord continue.,0 1 2 3 4 5 6

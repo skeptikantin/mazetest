@@ -28,7 +28,7 @@ Header(
 
 newTrial( "intro" ,
 
-    newText("Welcome to suz’ demo experiment.")
+    newText("Welcome to suz’ maze experiment.")
         .css("font-size", "2em")
         .css("font-family", "Open Sans")
         .center()
@@ -50,7 +50,12 @@ newTrial( "intro" ,
 
 newTrial("instructions" ,
 
-    newText("<p>In this experiment you are going to read sentences word by word.<br/>You can proceed to the next word by pressing the SPACE bar.</p><p>After reading a sentence, there will be a question about the sentence.</p><p>You can answer the question by using the left and right arrow keys,</br>or by clicking on the arrows.")
+    newText("<p>In this experiment, your task is to read sentences word-by-word, as quickly as possible.<br/>" +
+        "To read the sentence, you are given two words to choose from. Only one of the words is a plausible continuation of the sentence.</p>" +
+        "<p>Use the left and right arrow keys to make your choice.</p>" +
+        "<p>If you choose the wrong word, the sentence disappears and you will be given a new sentence.</p>" +
+        "<p>Please be as quickly and accurately as possible.</p>." +
+        "<p>There will be some practice sentences to familiarize you with the task.</p>")
         .css("font-size", "1.5em")
         .css("font-family", "Open Sans")
         .center()
@@ -63,7 +68,7 @@ newTrial("instructions" ,
         .print()
     ,
     newButton("OK")
-        .size(200)
+        .size(400)
         .center()
         .print()
         .wait()
@@ -73,7 +78,7 @@ Template("training.csv", row =>
     newTrial("training",
 
         newController("Maze", {s: row.Sentence, a: row.Distractor})
-            .css("font-size", "2em")
+            .css("font-size", "1.5em")
             .css("font-family", "Open Sans")
             .print()
             .log()
@@ -86,11 +91,32 @@ Template("training.csv", row =>
     )
 ) // defines template for the main experiment
 
+newTrial("intermission" ,
+
+    newText("<p>Okay, this should be enough practice. Remember try to pick the correct word, but also to do so as quickly as possible.</p>")
+        .css("font-size", "1.5em")
+        .css("font-family", "Open Sans")
+        .center()
+        .print()
+    ,
+    newText("<p>Click OK when you are ready to begin the main experiment.</p>")
+        .css("font-size", "1.5em")
+        .css("font-family", "Open Sans")
+        .center()
+        .print()
+    ,
+    newButton("OK")
+        .size(400)
+        .center()
+        .print()
+        .wait()
+) // instructions
+
 Template("sentences.csv", row =>
     newTrial("experiment",
 
         newController("Maze", {s: row.Sentence, a: row.Distractor})
-            .css("font-size", "2em")
+            .css("font-size", "1.5em")
             .css("font-family", "Open Sans")
             .print()
             .log()
