@@ -86,9 +86,7 @@ Template("training.csv", row =>
             .wait()
             .remove()
         ,
-        newTimer(500)
-            .start()
-            .wait()
+        // newTimer(500).start().wait()
     )
 ) // defines template for the main experiment
 
