@@ -57,13 +57,13 @@ newTrial("instructions" ,
         "<p>If you choose the wrong word, the sentence aborts and you will be given a new sentence.</p>" +
         "<p>Please make your choice as quickly and accurately as possible.<br/>." +
         "There will be practice sentences to familiarize you with the task.</p>")
-        .css("font-size", "1.5em")
+        .css("font-size", "1em")
         .css("font-family", "Open Sans")
         .center()
         .print()
     ,
     newText("<p>Click OK when you are ready to begin.</p>")
-        .css("font-size", "1.5em")
+        .css("font-size", "1em")
         .css("font-family", "Open Sans")
         .center()
         .print()
@@ -134,13 +134,13 @@ SendResults("send") // send results to server before good-bye message
 
 newTrial("goodbye",
     newText("<p>Thank you very much for your time and effort!</p>")
-        .css("font-size", "2em")
+        .css("font-size", "1.5em")
         .css("font-family", "Open Sans")
         .center()
         .print()
     ,
     newText("<a href='https://www.sfla.ch/'>Click here to validate your participation.</a>")
-        .css("font-size", "1.5em")
+        .css("font-size", "1em")
         .css("font-family", "Open Sans")
         .center()
         .print()
