@@ -132,12 +132,11 @@ Template("sentences.csv", row =>
             .start()
             .wait()
     )
+        // logs additional variables in sentence file (e.g., Fun)
+        .log("Fun", row.Fun)
+        .log("Index", row.Index)
+        .log("Type", row.Type)
 ) // defines template for the main experiment
-
-    // logs additional variables in sentence file (e.g., Fun)
-    .log("Fun", row.Fun)
-    .log("Index", row.Index)
-    .log("Type", row.Type)
 
 SendResults("send") // send results to server before good-bye message
 
