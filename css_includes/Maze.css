@@ -56,7 +56,7 @@
      display: block;
      background-color: white;
      padding-top: 50px;
-     font-size: 250%;
+     font-size: 100%;
      padding-bottom: 20px;
      float: center;
      text-align: center;
@@ -101,7 +101,7 @@
 }
 
 .child {
-	width: 800px;
+     width: 800px;
   height: 400px;
   margin: 0 10px;
 	background: blue;
