@@ -1,49 +1,49 @@
 ﻿s,RELATIVE_CLAUSE,a,CONDITION
-The pilot who complimented the flight attendant asked for a date.,subject-extracted, --- who date asked complimented pilot flight a for attendant.,ungrammatical
-The quarterback who hated the linebacker played a practical joke.,subject-extracted, --- who joke hated played quaterback linebacker a the practical.,ungrammatical
-The businessman who married the secretary invited the bookkeeper to the party.,subject-extracted, --- who party the to bookkeeper the invited married secretary businessman the.,ungrammatical
-The doctor who ignored the nurse drove a little red convertible.,subject-extracted, --- who convertible red little a drove ignored nurse doctor the.,ungrammatical
-The mechanic who divorced the waitress cheated on her often.,subject-extracted, --- who her on cheated often mechanic waitress divorced the. ,ungrammatical
-The writer who complimented the photographer worked for a national magazine.,subject-extracted, --- did mechanic flower give throw photographer him to paint English.,ungrammatical
-The burglar who scared the policeman robbed three houses in one night.,subject-extracted, --- who houses one light in houses scandal robbed scared policeman the.,ungrammatical
-The editor who angered the writer fired the entire staff.,subject-extracted, --- have staff writer angered the entire fired who editor.,ungrammatical
-The prisoner who attacked the guard provoked the riot.,subject-extracted, --- often riot who guard provoked the prisonor attacked. ,ungrammatical
-The director who admired the dancer gave her the leading role.,subject-extracted, --- who convertible red little a nurse ignored nurse away the.,ungrammatical
-The hiker who passed the fisherman got lost and had to be rescued.,subject-extracted, --- did mechanic flower give throw photographer medicine to paint English one two.,ungrammatical
-The tenant who despised the landlord phoned the newspaper to complain.,subject-extracted, --- indeed at not one come flower on twice two three.,ungrammatical
-The soldier who assisted the civilian received a medal from the army.,subject-extracted, --- that medal army received assisted the army a the cloud rice.,ungrammatical
-The cowboy who killed the sheriff wore a red vest and tan hat. ,subject-extracted, --- felt hat threat wear blue velvet pig dream hug hungry cat food.,ungrammatical
-The professor who criticised the student blushed and turned away.,subject-extracted, --- off hat beautiful red handed aim yet dog cat.,ungrammatical
-The plumber who helped the electrician retired after twenty years of the job.,subject-extracted, --- a the kid candy try effort two elephant rat wig sister cap.,ungrammatical
-The client who confronted the psychologist attacked her in the night.,subject-extracted, --- that hiccup fudge wall cleaning handle kiss to we language.,ungrammatical
-The golfer who liked the caddy played on the professional tour.,subject-extracted, --- often trip dry yet rage father draw wicked clown to.,ungrammatical
-The hunter who saw the game warden ran off into the forrest. ,subject-extracted, --- whom could figure was tried dear off we a pot sad.,ungrammatical
-The historian who criticised the freshman felt really bad afterward.,subject-extracted, --- who houses one light in houses scandal robbed the.,ungrammatical
-The actor who visited the director demanded the starring role in the movie. ,subject-extracted, --- that hiccup fudge wall handle to kiss we language rot fun hair.,ungrammatical
-The banker who irritated the lawyer played tennis every weekend. ,subject-extracted, --- indeed at not one come flower twice two three.,ungrammatical
-The gentleman who accompanied the author wrote stories every day.,subject-extracted, --- become baby child red dry eye sea weekend yes.,ungrammatical
-The child who chased the babysitter squealed with delight at the game.,subject-extracted, --- what if teeth yes colour equal riot fit twig for lost.,ungrammatical
-The pilot who the flight attendant complimented asked for a date.,object-extracted, --- who black yes complimented casual flight a fry three no.,ungrammatical
-The quarterback who the linebacker hated played a practical joke.,object-extracted, --- that hiccup fudge wall handle to kiss we rot.,ungrammatical
-The businessman who the secretary married invited the bookkeeper to the party.,object-extracted, --- who party to invitation book the invited married secret business the.,ungrammatical
-The doctor who the nurse ignored drove a little red convertible.,object-extracted, --- often convertible red little a the ignored nurse doctor drove.,ungrammatical
-The mechanic who the waitress divorced cheated on her often.,object-extracted, --- who her on cheated often mechanic waitress divorced the. ,ungrammatical
-The writer who the photographer complimented worked for a national magazine.,object-extracted, --- did mechanic flower give three photographer him to paint English.,ungrammatical
-The burglar who the policeman scared robbed three houses in one night.,object-extracted, --- who houses one light in houses scandal robbed scared policeman the.,ungrammatical
-The editor who the writer angered fired the entire staff.,object-extracted, --- have staff writer angered the entire fired who edit.,ungrammatical
-The prisoner who the guard attacked provoked the riot.,object-extracted, --- often riot who perfection pretty three four attacked. ,ungrammatical
-The director who the dancer admired gave her the leading role.,object-extracted, --- who convertible red little a nurse ignored nurse away the.,ungrammatical
-The hiker who the fisherman passed got lost and had to be rescued.,object-extracted, --- did mechanic flower give three photographer medicine one cat English one two.,ungrammatical
-The tenant who the landlord despised phoned the newspaper to complain.,object-extracted, --- indeed at not one come flower on twice two three.,ungrammatical
-The soldier who the civilian assisted received a medal from the army.,object-extracted, --- that medal army received camp army from the cloud rice thank.,ungrammatical
-The cowboy who the sheriff killed wore a red vest and tan hat. ,object-extracted, --- felt hat threat wear blue velvet pig dream hug hungry cat food.,ungrammatical
-The professor who the student criticised blushed and turned away.,object-extracted, --- off hat beautiful red hand aim yet dog cat.,ungrammatical
-The plumber who the electrician helped retired after twenty years of the job.,object-extracted, --- a the kid candy try effort two elephant rat wig sister cap.,ungrammatical
-The client who the psychologist confronted attacked her in the night.,object-extracted, --- that hiccup fudge wall cleaning handle kiss to we language.,ungrammatical
-The golfer who the caddy liked played on the professional tour.,object-extracted, --- often trip dry yet rage father draw wicked clown to.,ungrammatical
-The hunter who the game warden saw ran off into the forrest. ,object-extracted, --- whom could figure was tried dear off we a pot sad.,ungrammatical
-The historian who the freshman criticised felt really bad afterward.,object-extracted, --- who houses one light in houses scandal robbed the.,ungrammatical
-The actor who the director visited demanded the starring role in the movie. ,object-extracted, --- that hiccup fudge wall handle to kiss we language rot fun hair.,ungrammatical
-The banker who the lawyer irritated played tennis every weekend. ,object-extracted, --- indeed at not one come flower twice two three.,ungrammatical
-The gentleman who the author accompanied wrote stories every day.,object-extracted, --- become baby child red dry eye sea weekend yes.,ungrammatical
-The child who the babysitter chased squealed with delight at the game.,object-extracted, --- what if teeth yes colour equal riot fit twig for lost.,ungrammatical
+The pilot who complimented the flight attendant asked for a date.,subject-extracted,--- who date asked complimented pilot flight a for attendant.,ungrammatical
+The quarterback who hated the linebacker played a practical joke.,subject-extracted,--- who joke hated played quaterback linebacker a the practical.,ungrammatical
+The businessman who married the secretary invited the bookkeeper to the party.,subject-extracted,--- who party the to bookkeeper the invited married secretary businessman the.,ungrammatical
+The doctor who ignored the nurse drove a little red convertible.,subject-extracted,--- who convertible red little a drove ignored nurse doctor the.,ungrammatical
+The mechanic who divorced the waitress cheated on her often.,subject-extracted,--- who her on cheated often mechanic waitress divorced the. ,ungrammatical
+The writer who complimented the photographer worked for a national magazine.,subject-extracted,--- did mechanic flower give throw photographer him to paint English.,ungrammatical
+The burglar who scared the policeman robbed three houses in one night.,subject-extracted,--- who houses one light in houses scandal robbed scared policeman the.,ungrammatical
+The editor who angered the writer fired the entire staff.,subject-extracted,--- have staff writer angered the entire fired who editor.,ungrammatical
+The prisoner who attacked the guard provoked the riot.,subject-extracted,--- often riot who guard provoked the prisonor attacked. ,ungrammatical
+The director who admired the dancer gave her the leading role.,subject-extracted,--- who convertible red little a nurse ignored nurse away the.,ungrammatical
+The hiker who passed the fisherman got lost and had to be rescued.,subject-extracted,--- did mechanic flower give throw photographer medicine to paint English one two.,ungrammatical
+The tenant who despised the landlord phoned the newspaper to complain.,subject-extracted,--- indeed at not one come flower on twice two three.,ungrammatical
+The soldier who assisted the civilian received a medal from the army.,subject-extracted,--- that medal army received assisted the army a the cloud rice.,ungrammatical
+The cowboy who killed the sheriff wore a red vest and tan hat. ,subject-extracted,--- felt hat threat wear blue velvet pig dream hug hungry cat food.,ungrammatical
+The professor who criticised the student blushed and turned away.,subject-extracted,--- off hat beautiful red handed aim yet dog cat.,ungrammatical
+The plumber who helped the electrician retired after twenty years of the job.,subject-extracted,--- a the kid candy try effort two elephant rat wig sister cap.,ungrammatical
+The client who confronted the psychologist attacked her in the night.,subject-extracted,--- that hiccup fudge wall cleaning handle kiss to we language.,ungrammatical
+The golfer who liked the caddy played on the professional tour.,subject-extracted,--- often trip dry yet rage father draw wicked clown to.,ungrammatical
+The hunter who saw the game warden ran off into the forrest. ,subject-extracted,--- whom could figure was tried dear off we a pot sad.,ungrammatical
+The historian who criticised the freshman felt really bad afterward.,subject-extracted,--- who houses one light in houses scandal robbed the.,ungrammatical
+The actor who visited the director demanded the starring role in the movie. ,subject-extracted,--- that hiccup fudge wall handle to kiss we language rot fun hair.,ungrammatical
+The banker who irritated the lawyer played tennis every weekend. ,subject-extracted,--- indeed at not one come flower twice two three.,ungrammatical
+The gentleman who accompanied the author wrote stories every day.,subject-extracted,--- become baby child red dry eye sea weekend yes.,ungrammatical
+The child who chased the babysitter squealed with delight at the game.,subject-extracted,--- what if teeth yes colour equal riot fit twig for lost.,ungrammatical
+The pilot who the flight attendant complimented asked for a date.,object-extracted,--- who black yes complimented casual flight a fry three no.,ungrammatical
+The quarterback who the linebacker hated played a practical joke.,object-extracted,--- that hiccup fudge wall handle to kiss we rot.,ungrammatical
+The businessman who the secretary married invited the bookkeeper to the party.,object-extracted,--- who party to invitation book the invited married secret business the.,ungrammatical
+The doctor who the nurse ignored drove a little red convertible.,object-extracted,--- often convertible red little a the ignored nurse doctor drove.,ungrammatical
+The mechanic who the waitress divorced cheated on her often.,object-extracted,--- who her on cheated often mechanic waitress divorced the. ,ungrammatical
+The writer who the photographer complimented worked for a national magazine.,object-extracted,--- did mechanic flower give three photographer him to paint English.,ungrammatical
+The burglar who the policeman scared robbed three houses in one night.,object-extracted,--- who houses one light in houses scandal robbed scared policeman the.,ungrammatical
+The editor who the writer angered fired the entire staff.,object-extracted,--- have staff writer angered the entire fired who edit.,ungrammatical
+The prisoner who the guard attacked provoked the riot.,object-extracted,--- often riot who perfection pretty three four attacked. ,ungrammatical
+The director who the dancer admired gave her the leading role.,object-extracted,--- who convertible red little a nurse ignored nurse away the.,ungrammatical
+The hiker who the fisherman passed got lost and had to be rescued.,object-extracted,--- did mechanic flower give three photographer medicine one cat English one two.,ungrammatical
+The tenant who the landlord despised phoned the newspaper to complain.,object-extracted,--- indeed at not one come flower on twice two three.,ungrammatical
+The soldier who the civilian assisted received a medal from the army.,object-extracted,--- that medal army received camp army from the cloud rice thank.,ungrammatical
+The cowboy who the sheriff killed wore a red vest and tan hat. ,object-extracted,--- felt hat threat wear blue velvet pig dream hug hungry cat food.,ungrammatical
+The professor who the student criticised blushed and turned away.,object-extracted,--- off hat beautiful red hand aim yet dog cat.,ungrammatical
+The plumber who the electrician helped retired after twenty years of the job.,object-extracted,--- a the kid candy try effort two elephant rat wig sister cap.,ungrammatical
+The client who the psychologist confronted attacked her in the night.,object-extracted,--- that hiccup fudge wall cleaning handle kiss to we language.,ungrammatical
+The golfer who the caddy liked played on the professional tour.,object-extracted,--- often trip dry yet rage father draw wicked clown to.,ungrammatical
+The hunter who the game warden saw ran off into the forrest. ,object-extracted,--- whom could figure was tried dear off we a pot sad.,ungrammatical
+The historian who the freshman criticised felt really bad afterward.,object-extracted,--- who houses one light in houses scandal robbed the.,ungrammatical
+The actor who the director visited demanded the starring role in the movie. ,object-extracted,--- that hiccup fudge wall handle to kiss we language rot fun hair.,ungrammatical
+The banker who the lawyer irritated played tennis every weekend. ,object-extracted,--- indeed at not one come flower twice two three.,ungrammatical
+The gentleman who the author accompanied wrote stories every day.,object-extracted,--- become baby child red dry eye sea weekend yes.,ungrammatical
+The child who the babysitter chased squealed with delight at the game.,object-extracted,--- what if teeth yes colour equal riot fit twig for lost.,ungrammatical
