@@ -94,9 +94,11 @@ Template("training.csv", row =>
 
 newTrial("intermission" ,
 
-    newText("<p>Well done, this should be enough practice.<br/>" +
-        "Remember to try and pick the correct word,<br/>" +
-        "but also to read as fast as possible.</p>")
+    newText("<p>Well done, you should be good to go.<br/>" +
+        "Remember: try to be as quick and as accurate as possible.</p>" +
+        "<p>The task is fun, but demanding, so you are welcome to take short breaks,<br/>" +
+        "but please pause only <b>before</b> choosing the first word of a new sentence.</p>" +
+        "Thanks!")
         .css("font-size", "1.5em")
         .css("font-family", "Open Sans")
         .center()
@@ -131,6 +133,11 @@ Template("sentences.csv", row =>
             .wait()
     )
 ) // defines template for the main experiment
+
+    // logs additional variables in sentence file (e.g., Fun)
+    .log("Fun", row.Fun)
+    .log("Index", row.Index)
+    .log("Type", row.Type)
 
 SendResults("send") // send results to server before good-bye message
 

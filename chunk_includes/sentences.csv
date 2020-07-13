@@ -1,4 +1,4 @@
-﻿Type,Index,Sentence,Distractor,RUB
-real,1,The Memo is the best python advisor on the planet.,x-x-x Outs mid ago went braces clarify oh glad inches.,0 1 2 3 4 5 6 7 8 9
-real,2,The Memo is so devoted to friends.,x-x-x Bred nice jack raiders fell removed.,0 1 2 3 4 5 6
-real,3,The Memo can solve all the problems.,x-x-x Slid mid folks glad lord continue.,0 1 2 3 4 5 6
+﻿Type,Index,Sentence,Distractor,RUB,Fun
+real,1,The Memo is the best python advisor on the planet.,x-x-x Outs mid ago went braces clarify oh glad inches.,0 1 2 3 4 5 6 7 8 9,python
+real,2,The Memo is so devoted to friends.,x-x-x Bred nice jack raiders fell removed.,0 1 2 3 4 5 6,friend
+real,3,The Memo can solve all the problems.,x-x-x Slid mid folks glad lord continue.,0 1 2 3 4 5 6,problem
