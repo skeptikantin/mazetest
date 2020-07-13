@@ -3,7 +3,7 @@
 // https://www.pcibex.net/documentation/
 
 PennController.ResetPrefix(null) // Shorten command names (keep this line here)
-//PennController.DebugOff();
+PennController.DebugOff();
 
 
 // Show the 'intro' trial first, then all the 'experiment' trials in a random order
@@ -96,7 +96,7 @@ newTrial("intermission" ,
 
     newText("<p>Well done, this should be enough practice.<br/>" +
         "Remember to try and pick the correct word,<br/>" +
-        "but also to read as quick as possible.</p>")
+        "but also to read as fast as possible.</p>")
         .css("font-size", "1.5em")
         .css("font-family", "Open Sans")
         .center()
