@@ -1,0 +1,155 @@
+#
+# Results on Sunday July 12 2020 12:38:04 UTC.
+# USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+# Design number was non-random = 0
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. PennElementType.
+# 9. PennElementName.
+# 10. Parameter.
+# 11. Value.
+# 12. EventTime.
+# 13. Name.
+# 14. Comments.
+1594557484,91f6abc5b4e0a663ad43a6849d66cdeb,PennController,1,0,intro,NULL,PennController,0,_Trial_,Start,1594557456034,jklj,NULL
+1594557484,91f6abc5b4e0a663ad43a6849d66cdeb,PennController,1,0,intro,NULL,PennController,0,_Header_,Start,1594557456034,jklj,NULL
+1594557484,91f6abc5b4e0a663ad43a6849d66cdeb,PennController,1,0,intro,NULL,PennController,0,_Header_,End,1594557456785,jklj,NULL
+1594557484,91f6abc5b4e0a663ad43a6849d66cdeb,PennController,1,0,intro,NULL,PennController,0,_Trial_,End,1594557463698,jklj,NULL
+1594557484,91f6abc5b4e0a663ad43a6849d66cdeb,PennController,2,0,instructions,NULL,PennController,1,_Trial_,Start,1594557463703,jklj,NULL
+1594557484,91f6abc5b4e0a663ad43a6849d66cdeb,PennController,2,0,instructions,NULL,PennController,1,_Header_,Start,1594557463703,jklj,NULL
+1594557484,91f6abc5b4e0a663ad43a6849d66cdeb,PennController,2,0,instructions,NULL,PennController,1,_Header_,End,1594557464454,jklj,NULL
+1594557484,91f6abc5b4e0a663ad43a6849d66cdeb,PennController,2,0,instructions,NULL,PennController,1,_Trial_,End,1594557466890,jklj,NULL
+#
+# Results on Monday July 13 2020 15:17:40 UTC.
+# USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+# Design number was non-random = 1
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. PennElementType.
+# 9. PennElementName.
+# 10. Parameter.
+# 11. Value.
+# 12. EventTime.
+# 13. Name.
+# 14. Comments.
+1594653460,e77a2ffbd3293f38f0b76f3766275f3f,PennController,29,0,intro,NULL,PennController,0,_Trial_,Start,1594653419699,werw,NULL
+1594653460,e77a2ffbd3293f38f0b76f3766275f3f,PennController,29,0,intro,NULL,PennController,0,_Header_,Start,1594653419699,werw,NULL
+1594653460,e77a2ffbd3293f38f0b76f3766275f3f,PennController,29,0,intro,NULL,PennController,0,_Header_,End,1594653420453,werw,NULL
+1594653460,e77a2ffbd3293f38f0b76f3766275f3f,PennController,29,0,intro,NULL,PennController,0,_Trial_,End,1594653422296,werw,NULL
+1594653460,e77a2ffbd3293f38f0b76f3766275f3f,PennController,30,0,instructions,NULL,PennController,1,_Trial_,Start,1594653422300,werw,NULL
+1594653460,e77a2ffbd3293f38f0b76f3766275f3f,PennController,30,0,instructions,NULL,PennController,1,_Header_,Start,1594653422300,werw,NULL
+1594653460,e77a2ffbd3293f38f0b76f3766275f3f,PennController,30,0,instructions,NULL,PennController,1,_Header_,End,1594653423051,werw,NULL
+1594653460,e77a2ffbd3293f38f0b76f3766275f3f,PennController,30,0,instructions,NULL,PennController,1,_Trial_,End,1594653425686,werw,NULL
+1594653460,e77a2ffbd3293f38f0b76f3766275f3f,PennController,31,0,spr,NULL,PennController,4,_Trial_,Start,1594653425688,werw,NULL
+1594653460,e77a2ffbd3293f38f0b76f3766275f3f,PennController,31,0,spr,NULL,PennController,4,_Header_,Start,1594653425688,werw,NULL
+1594653460,e77a2ffbd3293f38f0b76f3766275f3f,PennController,31,0,spr,NULL,PennController,4,_Header_,End,1594653426444,werw,NULL
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. PennElementType.
+# 9. PennElementName.
+# 10. Parameter.
+# 11. Value.
+# 12. EventTime.
+# 13. Name.
+# 14. Alternative.
+# 15. Word on (0=left, 1=right).
+# 16. Correct.
+# 17. Reading time to first answer.
+# 18. Sentence.
+# 19. Total time to correct answer.
+# 20. Comments.
+1594653460,e77a2ffbd3293f38f0b76f3766275f3f,PennController,31,0,spr,NULL,Controller-Maze,Maze,0,Kim,1594653430600,werw,x-x-x,0,yes,712,Kim will display the photos she took last month%2C but she won't show all of them.,712,Any addtional parameters were appended as additional columns
+1594653460,e77a2ffbd3293f38f0b76f3766275f3f,PennController,31,0,spr,NULL,Controller-Maze,Maze,1,will,1594653430600,werw,milk,1,yes,599,Kim will display the photos she took last month%2C but she won't show all of them.,599,Any addtional parameters were appended as additional columns
+1594653460,e77a2ffbd3293f38f0b76f3766275f3f,PennController,31,0,spr,NULL,Controller-Maze,Maze,2,display,1594653430600,werw,dealing,0,yes,921,Kim will display the photos she took last month%2C but she won't show all of them.,921,Any addtional parameters were appended as additional columns
+1594653460,e77a2ffbd3293f38f0b76f3766275f3f,PennController,31,0,spr,NULL,Controller-Maze,Maze,3,the,1594653430600,werw,sit,0,yes,1311,Kim will display the photos she took last month%2C but she won't show all of them.,1311,Any addtional parameters were appended as additional columns
+1594653460,e77a2ffbd3293f38f0b76f3766275f3f,PennController,31,0,spr,NULL,Controller-Maze,Maze,4,photos,1594653430600,werw,compel,0,no,609,Kim will display the photos she took last month%2C but she won't show all of them.,NaN,Any addtional parameters were appended as additional columns
+1594653460,e77a2ffbd3293f38f0b76f3766275f3f,PennController,31,0,spr,NULL,Controller-Maze,Maze,5,she,1594653430600,werw,eat,0,no,NaN,Kim will display the photos she took last month%2C but she won't show all of them.,NaN,Any addtional parameters were appended as additional columns
+1594653460,e77a2ffbd3293f38f0b76f3766275f3f,PennController,31,0,spr,NULL,Controller-Maze,Maze,6,took,1594653430600,werw,thin,1,no,NaN,Kim will display the photos she took last month%2C but she won't show all of them.,NaN,Any addtional parameters were appended as additional columns
+1594653460,e77a2ffbd3293f38f0b76f3766275f3f,PennController,31,0,spr,NULL,Controller-Maze,Maze,7,last,1594653430600,werw,poem,1,no,NaN,Kim will display the photos she took last month%2C but she won't show all of them.,NaN,Any addtional parameters were appended as additional columns
+1594653460,e77a2ffbd3293f38f0b76f3766275f3f,PennController,31,0,spr,NULL,Controller-Maze,Maze,8,month%2C,1594653430600,werw,older%2C,0,no,NaN,Kim will display the photos she took last month%2C but she won't show all of them.,NaN,Any addtional parameters were appended as additional columns
+1594653460,e77a2ffbd3293f38f0b76f3766275f3f,PennController,31,0,spr,NULL,Controller-Maze,Maze,9,but,1594653430600,werw,us,0,no,NaN,Kim will display the photos she took last month%2C but she won't show all of them.,NaN,Any addtional parameters were appended as additional columns
+1594653460,e77a2ffbd3293f38f0b76f3766275f3f,PennController,31,0,spr,NULL,Controller-Maze,Maze,10,she,1594653430600,werw,thy,0,no,NaN,Kim will display the photos she took last month%2C but she won't show all of them.,NaN,Any addtional parameters were appended as additional columns
+1594653460,e77a2ffbd3293f38f0b76f3766275f3f,PennController,31,0,spr,NULL,Controller-Maze,Maze,11,won't,1594653430600,werw,scale,0,no,NaN,Kim will display the photos she took last month%2C but she won't show all of them.,NaN,Any addtional parameters were appended as additional columns
+1594653460,e77a2ffbd3293f38f0b76f3766275f3f,PennController,31,0,spr,NULL,Controller-Maze,Maze,12,show,1594653430600,werw,soft,1,no,NaN,Kim will display the photos she took last month%2C but she won't show all of them.,NaN,Any addtional parameters were appended as additional columns
+1594653460,e77a2ffbd3293f38f0b76f3766275f3f,PennController,31,0,spr,NULL,Controller-Maze,Maze,13,all,1594653430600,werw,ran,1,no,NaN,Kim will display the photos she took last month%2C but she won't show all of them.,NaN,Any addtional parameters were appended as additional columns
+1594653460,e77a2ffbd3293f38f0b76f3766275f3f,PennController,31,0,spr,NULL,Controller-Maze,Maze,14,of,1594653430600,werw,eat,0,no,NaN,Kim will display the photos she took last month%2C but she won't show all of them.,NaN,Any addtional parameters were appended as additional columns
+1594653460,e77a2ffbd3293f38f0b76f3766275f3f,PennController,31,0,spr,NULL,Controller-Maze,Maze,15,them.,1594653430600,werw,soon.,1,no,NaN,Kim will display the photos she took last month%2C but she won't show all of them.,NaN,Any addtional parameters were appended as additional columns
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. PennElementType.
+# 9. PennElementName.
+# 10. Parameter.
+# 11. Value.
+# 12. EventTime.
+# 13. Name.
+# 14. Comments.
+1594653460,e77a2ffbd3293f38f0b76f3766275f3f,PennController,31,0,spr,NULL,PennController,4,_Trial_,End,1594653431105,werw,NULL
+1594653460,e77a2ffbd3293f38f0b76f3766275f3f,PennController,32,0,spr,NULL,PennController,5,_Trial_,Start,1594653431111,werw,NULL
+1594653460,e77a2ffbd3293f38f0b76f3766275f3f,PennController,32,0,spr,NULL,PennController,5,_Header_,Start,1594653431111,werw,NULL
+1594653460,e77a2ffbd3293f38f0b76f3766275f3f,PennController,32,0,spr,NULL,PennController,5,_Header_,End,1594653431864,werw,NULL
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. PennElementType.
+# 9. PennElementName.
+# 10. Parameter.
+# 11. Value.
+# 12. EventTime.
+# 13. Name.
+# 14. Alternative.
+# 15. Word on (0=left, 1=right).
+# 16. Correct.
+# 17. Reading time to first answer.
+# 18. Sentence.
+# 19. Total time to correct answer.
+# 20. Comments.
+1594653460,e77a2ffbd3293f38f0b76f3766275f3f,PennController,32,0,spr,NULL,Controller-Maze,Maze,0,A,1594653442254,werw,x-x-x,0,yes,5245,A test sentence.,5245,Any addtional parameters were appended as additional columns
+1594653460,e77a2ffbd3293f38f0b76f3766275f3f,PennController,32,0,spr,NULL,Controller-Maze,Maze,1,test,1594653442254,werw,tset,0,yes,879,A test sentence.,879,Any addtional parameters were appended as additional columns
+1594653460,e77a2ffbd3293f38f0b76f3766275f3f,PennController,32,0,spr,NULL,Controller-Maze,Maze,2,sentence.,1594653442254,werw,ecnetens.,0,yes,4264,A test sentence.,4264,Any addtional parameters were appended as additional columns
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. PennElementType.
+# 9. PennElementName.
+# 10. Parameter.
+# 11. Value.
+# 12. EventTime.
+# 13. Name.
+# 14. Comments.
+1594653460,e77a2ffbd3293f38f0b76f3766275f3f,PennController,32,0,spr,NULL,PennController,5,_Trial_,End,1594653442757,werw,NULL
