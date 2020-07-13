@@ -51,11 +51,12 @@ newTrial( "intro" ,
 newTrial("instructions" ,
 
     newText("<p>In this experiment, your task is to read sentences word-by-word, as quickly as possible.<br/>" +
-        "To read the sentence, you are given two words to choose from. Only one of the words is a plausible continuation of the sentence.</p>" +
-        "<p>Use the left and right arrow keys to make your choice.</p>" +
+        "To read the sentence, you are given two words to choose from.<br/>" +
+        "Only one of the words is a plausible continuation of the sentence.</p>" +
+        "<p>Use the <b>left</b> and <b>right</b> arrow keys to make your choice.</p>" +
         "<p>If you choose the wrong word, the sentence aborts and you will be given a new sentence.</p>" +
-        "<p>Please make your choice as quickly and accurately as possible.</p>." +
-        "<p>There will be some practice sentences to familiarize you with the task.</p>")
+        "<p>Please make your choice as quickly and accurately as possible.<br/>." +
+        "There will be practice sentences to familiarize you with the task.</p>")
         .css("font-size", "1.5em")
         .css("font-family", "Open Sans")
         .center()
