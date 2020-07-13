@@ -8,7 +8,7 @@ PennController.ResetPrefix(null) // Shorten command names (keep this line here)
 
 // Show the 'intro' trial first, then all the 'experiment' trials in a random order
 // then send the results and finally show the trial labeled 'bye'
-Sequence( "intro", "instructions", "fullscreen", randomize("spr") , SendResults() , "goodbye" )
+Sequence( "intro", "instructions", randomize("training"), randomize("experiment") , SendResults() , "goodbye" )
 
 
 // What is in Header happens at the beginning of every single trial
@@ -69,18 +69,27 @@ newTrial("instructions" ,
         .wait()
 ) // instructions
 
-//newTrial("fullscreen",
-//  newButton("Start the experiment and go fullscreen!")
-//    .print()
-//    .wait()
-//  ,
-//  fullscreen()
-//)
+Template("training.csv", row =>
+    newTrial("training",
+
+        newController("Maze", {s: row.Sentence, a: row.Distractor})
+            .css("font-size", "2em")
+            .css("font-family", "Open Sans")
+            .print()
+            .log()
+            .wait()
+            .remove()
+        ,
+        newTimer(500)
+            .start()
+            .wait()
+    )
+) // defines template for the main experiment
 
 Template("sentences.csv", row =>
-    newTrial("spr",
-        
-        newController("Maze", {s: row.s, a: row.a})
+    newTrial("experiment",
+
+        newController("Maze", {s: row.Sentence, a: row.Distractor})
             .css("font-size", "2em")
             .css("font-family", "Open Sans")
             .print()
