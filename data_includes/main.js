@@ -84,10 +84,11 @@ Template("training.csv", row =>
             .print()
             .log()
             .wait()
-            .failure(newText ("oops!"))
+
             .remove()
         ,
-        // newTimer(500).start().wait()
+        .failure(newText ("oops!"))
+        newTimer(500).start().wait()
     )
 ) // defines template for the main experiment
 
