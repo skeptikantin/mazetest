@@ -30,7 +30,7 @@ newTrial( "intro" ,
 
     newText("Welcome to suz’ maze experiment.")
         .css("font-size", "2em")
-        .css("font-family", "Open Sans", "Monaco", "Noto Sans", "Comic Sans")
+        .css("font-family", "Comic Sans", "Monaco", "Noto Sans", "Open Sans")
         .center()
         .print()
     ,
