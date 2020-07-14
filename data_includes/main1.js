@@ -132,6 +132,10 @@ Template("sentences.csv", row =>
             .start()
             .wait()
     )
+        // logs additional variables in sentence file (e.g., Fun)
+        .log("Id", row.Id)
+        .log("Group", row.Group)
+        .log("Type", row.Type)
     ,
     newTrial("break",
 
@@ -146,10 +150,6 @@ Template("sentences.csv", row =>
             .wait()
     )
 
-        // logs additional variables in sentence file (e.g., Fun)
-        .log("Id", row.Id)
-        .log("Group", row.Group)
-        .log("Type", row.Type)
 ) // defines template for the main experiment
 
 SendResults("send") // send results to server before good-bye message
