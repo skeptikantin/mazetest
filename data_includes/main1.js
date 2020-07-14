@@ -8,8 +8,8 @@ PennController.DebugOff();
 
 // Show the 'intro' trial first, then all the 'experiment' trials in a random order
 // then send the results and finally show the trial labeled 'bye'
-Sequence("intro", "instructions", randomize("training"), "intermission", randomize("experiment") , SendResults() , "goodbye" )
-Sequence("intro", "instructions", randomize("training"), "intermission", sepWithN( "break" , randomize("experiment") , 3), SendResuls(), "goodbye")
+//Sequence("intro", "instructions", randomize("training"), "intermission", randomize("experiment") , SendResults() , "goodbye" )
+Sequence("intro", "instructions", randomize("training"), "intermission", sepWithN( "break" , randomize("experiment") , 3), SendResults(), "goodbye")
 
 
 // What is in Header happens at the beginning of every single trial
@@ -111,7 +111,7 @@ newTrial("intermission" ,
         .print()
     ,
     newButton("OK")
-        .size(200)
+        .size(200, 200)
         .center()
         .print()
         .wait()
@@ -137,16 +137,18 @@ Template("sentences.csv", row =>
 
         newText("Well done, you're welcome to take a little rest." +
             "Press SPACE to continue.")
+            .css("font-size", "1.5em")
+            .css("font-family", "Open Sans")
+            .log()
             .print()
         ,
         newKey(" ")
             .wait()
-        ,
     )
 
         // logs additional variables in sentence file (e.g., Fun)
-        .log("Fun", row.Fun)
-        .log("Index", row.Index)
+        .log("Id", row.Id)
+        .log("Group", row.Group)
         .log("Type", row.Type)
 ) // defines template for the main experiment
 
