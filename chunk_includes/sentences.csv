@@ -1,4 +1,49 @@
-﻿Type,Index,Sentence,Distractor,RUB,Fun
-real,1,The Memo is the best python advisor on the planet.,x-x-x Outs mid ago went braces clarify oh glad inches.,0 1 2 3 4 5 6 7 8 9,python
-real,2,The Memo is so devoted to friends.,x-x-x Bred nice jack raiders fell removed.,0 1 2 3 4 5 6,friend
-real,3,The Memo can solve all the problems.,x-x-x Slid mid folks glad lord continue.,0 1 2 3 4 5 6,problem
+﻿Group,Id,Sentence,Distractor,Type
+A,1,The actor who the director visited demanded the starring role in the movie. ,--- that hiccup fudge wall handle to kiss we language rot fun hair.,object-extracted
+B,1,The actor who visited the director demanded the starring role in the movie. ,--- that hiccup fudge wall handle to kiss we language rot fun hair.,subject-extracted
+A,2,The banker who irritated the lawyer played tennis every weekend. ,--- indeed at not one come flower twice two three.,subject-extracted
+B,2,The banker who the lawyer irritated played tennis every weekend. ,--- indeed at not one come flower twice two three.,object-extracted
+A,3,The burglar who scared the policeman robbed three houses in one night.,--- get deep sea drop temporal dinner dawn would sat gate help.,subject-extracted
+B,3,The burglar who the policeman scared robbed three houses in one night.,--- tend to polite dawn vine culture soup wrote do so tight.,object-extracted
+B,4,The businessman who married the secretary invited the bookkeeper to the party.,--- who skirt deep eye deal the found mat waiter playful the.,subject-extracted
+A,4,The businessman who the secretary married invited the bookkeeper to the party.,--- drunk trip ear tried mouse salt yourself insult tree polite friends.,object-extracted
+A,5,The child who chased the babysitter squealed with delight at the game.,--- what if teeth yes colour equal riot fit twig for lost.,subject-extracted
+B,5,The child who the babysitter chased squealed with delight at the game.,--- what if teeth yes colour equal riot fit twig for lost.,object-extracted
+B,6,The client who confronted the psychologist attacked her in the night.,--- that hiccup fudge wall cleaning handle kiss to we language.,subject-extracted
+A,6,The client who the psychologist confronted attacked her in the night.,--- that hiccup fudge wall cleaning handle kiss to we language.,object-extracted
+A,7,The cowboy who killed the sheriff wore a red vest and tan hat. ,--- felt hat threat wear blue velvet pig dream hug hungry cat food.,subject-extracted
+B,7,The cowboy who the sheriff killed wore a red vest and tan hat. ,--- felt hat threat wear blue velvet pig dream hug hungry cat food.,object-extracted
+B,8,The director who admired the dancer gave her the leading role.,--- red detail bangs can yourself shirt pot ash found dame.,subject-extracted
+A,8,The director who the dancer admired gave her the leading role.,--- try status him optional tomorrow safe feed get vomit hard.,object-extracted
+A,9,The doctor who ignored the nurse drove a little red convertible.,--- who contrast red blue a family find yet happy get.,subject-extracted
+B,9,The doctor who the nurse ignored drove a little red convertible.,--- found vase or eat course gray ear find elect dark.,object-extracted
+B,10,The editor who angered the writer fired the entire staff.,--- have campus cooker fly type whole wait who location.,subject-extracted
+A,10,The editor who the writer angered fired the entire staff.,--- was waste option deep depth bread doing trap fall.,object-extracted
+A,11,The gentleman who accompanied the author wrote stories every day.,--- become baby child red dry eye sea weekend yes.,subject-extracted
+B,11,The gentleman who the author accompanied wrote stories every day.,--- become baby child red dry eye sea weekend yes.,object-extracted
+B,12,The golfer who liked the caddy played on the professional tour.,--- often trip dry yet rage father draw wicked clown to.,subject-extracted
+A,12,The golfer who the caddy liked played on the professional tour.,--- often trip dry yet rage father draw wicked clown to.,object-extracted
+A,13,The hiker who passed the fisherman got lost and had to be rescued.,--- does chess chips earrings yell red blue was true game youth bully.,subject-extracted
+B,13,The hiker who the fisherman passed got lost and had to be rescued.,--- did bird flower give three girl whom one cat English one two.,object-extracted
+B,14,The historian who criticised the freshman felt really bad afterward.,--- who houses one light in houses scandal robbed the.,subject-extracted
+A,14,The historian who the freshman criticised felt really bad afterward.,--- who houses one light in houses scandal robbed the.,object-extracted
+A,15,The hunter who saw the game warden ran off into the forrest. ,--- whom could figure was tried dear off we a pot sad.,subject-extracted
+B,15,The hunter who the game warden saw ran off into the forrest. ,--- whom could figure was tried dear off we a pot sad.,object-extracted
+B,16,The mechanic who divorced the waitress cheated on her often.,--- who him open type often machine top fly the. ,subject-extracted
+A,16,The mechanic who the waitress divorced cheated on her often.,---  regard wet until pad singer vacation off itself guy.,object-extracted
+A,17,The pilot who complimented the flight attendant asked for a date.,--- that take flower described is a for open choose taken.,subject-extracted
+B,17,The pilot who the flight attendant complimented asked for a date.,--- who black yes complimented casual flight a fry three no.,object-extracted
+B,18,The plumber who helped the electrician retired after twenty years of the job.,--- a the kid candy try effort two elephant rat wig sister cap.,subject-extracted
+A,18,The plumber who the electrician helped retired after twenty years of the job.,--- a the kid candy try effort two elephant rat wig sister cap.,object-extracted
+A,19,The prisoner who attacked the guard provoked the riot.,--- often riches loads deer fought guilt you deep. ,subject-extracted
+B,19,The prisoner who the guard attacked provoked the riot.,--- herself future ocean sit city video cinema intention.,object-extracted
+B,20,The professor who criticised the student blushed and turned away.,--- off hat beautiful red handed aim yet dog cat.,subject-extracted
+A,20,The professor who the student criticised blushed and turned away.,--- off hat beautiful red hand aim yet dog cat.,object-extracted
+A,21,The quarterback who hated the linebacker played a practical joke.,--- he trick course played additionally dress we the top.,subject-extracted
+B,21,The quarterback who the linebacker hated played a practical joke.,--- that hiccup fudge wall handle to kiss we rot.,object-extracted
+B,22,The soldier who assisted the civilian received a medal from the army.,--- that cup finance gained trapped the arm a the cloud rice.,subject-extracted
+A,22,The soldier who the civilian assisted received a medal from the army.,--- climbing wet itself took past friend deal search wicked hunger missing.,object-extracted
+A,23,The tenant who despised the landlord phoned the newspaper to complain.,--- indeed at not one come flower on twice two three.,subject-extracted
+B,23,The tenant who the landlord despised phoned the newspaper to complain.,--- indeed at not one come flower on twice two three.,object-extracted
+B,24,The writer who complimented the photographer worked for a national magazine.,--- did mechanic flower give throw photographer him to paint English.,subject-extracted
+A,24,The writer who the photographer complimented worked for a national magazine.,--- did mechanic grass give five camera him to copied literature.,object-extracted
