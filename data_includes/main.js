@@ -99,7 +99,7 @@ newTrial("intermission" ,
         "but please pause only <b>before</b> choosing the first word of a new sentence.</p>" +
         "Thanks!")
         .css("font-size", "1.5em")
-        .css("font-family", "Open Sans", "Monaco", "Noto Sans", "Comic Sans")
+        .css("font-family", "Open Sans", "Monaco", "Noto Sans")
         .center()
         .print()
     ,

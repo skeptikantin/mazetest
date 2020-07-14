@@ -9,7 +9,7 @@ PennController.DebugOff();
 // Show the 'intro' trial first, then all the 'experiment' trials in a random order
 // then send the results and finally show the trial labeled 'bye'
 //Sequence("intro", "instructions", randomize("training"), "intermission", randomize("experiment") , SendResults() , "goodbye" )
-Sequence("intro", "instructions", randomize("training"), "intermission", sepWithN( "break" , randomize("experiment") , 3), SendResults(), "goodbye")
+Sequence("intro", "instructions", randomize("training"), "intermission", sepWithN( "break" , randomize("experiment") , 4), SendResults(), "goodbye")
 
 
 // What is in Header happens at the beginning of every single trial
@@ -31,13 +31,13 @@ newTrial( "intro" ,
 
     newText("Welcome to suz’ maze1 experiment.")
         .css("font-size", "2em")
-        .css("font-family", "Comic Sans", "Monaco", "Noto Sans", "Open Sans")
+        .css("font-family", "Open Sans", "Monaco", "Noto Sans")
         .center()
         .print()
     ,
     newText("<p>Please enter your name below and press enter:</p>")
         .css("font-size", "1.5em")
-        .css("font-family", "Open Sans", "Monaco", "Noto Sans", "Comic Sans")
+        .css("font-family", "Open Sans", "Monaco", "Noto Sans")
         .center()
         .print()
     ,
@@ -111,7 +111,7 @@ newTrial("intermission" ,
         .print()
     ,
     newButton("OK")
-        .size(200, 200)
+        .size(200)
         .center()
         .print()
         .wait()
@@ -135,7 +135,7 @@ Template("sentences.csv", row =>
     ,
     newTrial("break",
 
-        newText("Well done, you're welcome to take a little rest." +
+        newText("Well done, you've earned a little rest." +
             "Press SPACE to continue.")
             .css("font-size", "1.5em")
             .css("font-family", "Open Sans")

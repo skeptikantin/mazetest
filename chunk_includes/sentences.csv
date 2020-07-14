@@ -36,7 +36,7 @@ B,17,The pilot who the flight attendant complimented asked for a date.,--- who b
 B,18,The plumber who helped the electrician retired after twenty years of the job.,--- a the kid candy try effort two elephant rat wig sister cap.,subject-extracted
 A,18,The plumber who the electrician helped retired after twenty years of the job.,--- a the kid candy try effort two elephant rat wig sister cap.,object-extracted
 A,19,The prisoner who attacked the guard provoked the riot.,--- often riches loads deer fought guilt you deep. ,subject-extracted
-B,19,The prisoner who the guard attacked provoked the riot.,--- herself future ocean sit city video cinema intention.,object-extracted
+B,19,The prisoner who the guard attacked provoked the riot.,--- often riches loads deer fought guilt you deep. ,object-extracted
 B,20,The professor who criticised the student blushed and turned away.,--- off hat beautiful red handed aim yet dog cat.,subject-extracted
 A,20,The professor who the student criticised blushed and turned away.,--- off hat beautiful red hand aim yet dog cat.,object-extracted
 A,21,The quarterback who hated the linebacker played a practical joke.,--- he trick course played additionally dress we the top.,subject-extracted
