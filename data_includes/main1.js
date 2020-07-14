@@ -29,7 +29,7 @@ Header(
 
 newTrial( "intro" ,
 
-    newText("Welcome to suz’ maze experiment.")
+    newText("Welcome to suz’ maze1 experiment.")
         .css("font-size", "2em")
         .css("font-family", "Comic Sans", "Monaco", "Noto Sans", "Open Sans")
         .center()
@@ -135,12 +135,12 @@ Template("sentences.csv", row =>
     ,
     newTrial("break",
 
-        newText("Well done, take a little rest." +
+        newText("Well done, you're welcome to take a little rest." +
             "Press SPACE to continue.")
             .print()
         ,
         newKey(" ")
-            .waint()
+            .wait()
         ,
     )
 
