@@ -8,7 +8,8 @@ PennController.DebugOff();
 
 // Show the 'intro' trial first, then all the 'experiment' trials in a random order
 // then send the results and finally show the trial labeled 'bye'
-Sequence( "intro", "instructions", randomize("training"), "intermission", randomize("experiment") , SendResults() , "goodbye" )
+Sequence("intro", "instructions", randomize("training"), "intermission", randomize("experiment") , SendResults() , "goodbye" )
+Sequence("intro", "instructions", randomize("training"), "intermission", sepWithN( "break" , randomize("experiment") , 3), SendResuls(), "goodbye")
 
 
 // What is in Header happens at the beginning of every single trial
@@ -130,6 +131,17 @@ Template("sentences.csv", row =>
         newTimer(500)
             .start()
             .wait()
+    )
+    ,
+    newTrial("break",
+
+        newText("Well done, take a little rest." +
+            "Press SPACE to continue.")
+            .print()
+        ,
+        newKey(" ")
+            .waint()
+        ,
     )
 
         // logs additional variables in sentence file (e.g., Fun)
