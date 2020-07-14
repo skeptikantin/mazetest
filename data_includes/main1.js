@@ -31,7 +31,7 @@ newTrial( "intro" ,
 
     newText("Welcome to suz’ maze1 experiment.")
         .css("font-size", "2em")
-        .css("font-family", "Arial", "Open Sans", "Monaco", "Noto Sans")
+        .css("font-family", "Verdana")
         .center()
         .print()
     ,
@@ -59,13 +59,13 @@ newTrial("instructions" ,
         "<p><b>Please make your choices as quickly and as accurately as possible.</b></p>" +
         "<p>There will be a few practice sentences to familiarize you with the task.</p>")
         .css("font-size", "1.5em")
-        .css("font-family", "Open Sans")
+        .css("font-family", "Verdana")
         .center()
         .print()
     ,
     newText("<p>Click OK when you are ready to begin.</p>")
         .css("font-size", "1em")
-        .css("font-family", "Open Sans", "Monaco", "Noto Sans", "Comic Sans")
+        .css("font-family", "Verdana")
         .center()
         .print()
     ,
@@ -81,13 +81,15 @@ Template("training.csv", row =>
 
         newController("Maze", {s: row.Sentence, a: row.Distractor})
             .css("font-size", "1.5em")
-            .css("font-family", "Open Sans", "Monaco", "Noto Sans", "Comic Sans")
+            .css("font-family", "Verdana")
             .print()
             .log()
             .wait()
             .remove()
             .test.passed()
-            .failure(newText("oops!").print())
+            .failure(newText("<br/>oops!").css("font-size", "1em").print())
+            .success(newText("<br/>great!").css("font-size", "1em").print())
+
         ,
         newTimer(500).start().wait()
     )
@@ -97,17 +99,16 @@ newTrial("intermission" ,
 
     newText("<p>Well done, you should be good to go.<br/>" +
         "Remember: try to be as quick and as accurate as possible.</p>" +
-        "<p>The task is fun, but demanding, so you are welcome to take short breaks,<br/>" +
-        "but please pause only <b>before</b> choosing the first word of a new sentence.</p>" +
-        "Thanks!")
+        "<p>The task is fun, but demanding, so there<br/>" +
+        "will be breaks every 6 sentences.<br/></p>")
         .css("font-size", "1.5em")
-        .css("font-family", "Open Sans", "Monaco", "Noto Sans", "Comic Sans")
+        .css("font-family", "Verdana")
         .center()
         .print()
     ,
     newText("<p>Click OK when you are ready to proceed to the main experiment.</p>")
         .css("font-size", "1em")
-        .css("font-family", "Open Sans")
+        .css("font-family", "Verdana")
         .center()
         .print()
     ,
@@ -123,7 +124,7 @@ Template("sentences.csv", row =>
 
         newController("Maze", {s: row.Sentence, a: row.Distractor})
             .css("font-size", "1.5em")
-            .css("font-family", "Open Sans")
+            .css("font-family", "Verdana")
             .print()
             .log()
             .wait()
@@ -145,7 +146,7 @@ Template("sentences.csv", row =>
         newText("<p>Well done, you've earned a little rest if you want.</p>" +
             "Press SPACE to continue.")
             .css("font-size", "1.5em")
-            .css("font-family", "Open Sans")
+            .css("font-family", "Verdana")
             .center()
             .log()
             .print()
@@ -161,13 +162,13 @@ SendResults("send") // send results to server before good-bye message
 newTrial("goodbye",
     newText("<p>Thank you very much for your time and effort!</p>")
         .css("font-size", "1.5em")
-        .css("font-family", "Open Sans")
+        .css("font-family", "Verdana")
         .center()
         .print()
     ,
     newText("<a href='https://www.sfla.ch/'>Click here to validate your participation.</a>")
         .css("font-size", "1em")
-        .css("font-family", "Open Sans")
+        .css("font-family", "Verdana")
         .center()
         .print()
     ,

@@ -32,8 +32,9 @@
      display: inline-block;
      margin-right: 10%;
      margin-left:27%;
-     font-size: 50%;
+     font-size: 100%;
      position: relative;
+     color: darkolivegreen;
 }
 .rarrow {
      background-color: white;
@@ -46,6 +47,7 @@
      margin-right: 27%;
      font-size:50%;
      position: relative;
+     color: darkolivegreen;
      
 }
 .words {
