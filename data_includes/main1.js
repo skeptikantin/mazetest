@@ -30,14 +30,14 @@ Header(
 newTrial( "intro" ,
 
     newText("Welcome to suz’ maze1 experiment.")
-        .css("font-size", "2em")
+        .css("font-size", "1.5em")
         .css("font-family", "Verdana")
         .center()
         .print()
     ,
     newText("<p>Please enter your name below and press enter:</p>")
-        .css("font-size", "1.5em")
-        .css("font-family", "Open Sans", "Monaco", "Noto Sans")
+        .css("font-size", "1em")
+        .css("font-family", "Verdana")
         .center()
         .print()
     ,
