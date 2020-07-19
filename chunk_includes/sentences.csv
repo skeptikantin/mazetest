@@ -1,4 +1,4 @@
-﻿Group,Condition,Id,s,a
+﻿Group,Condition,Id,Sentence,Distractor
 A,object-extracted,1,The actor who the director visited demanded the starring role in the movie.,x-x-x aware pre loss diseases ethical taxation etc develops dear al eat knows.
 B,subject-extracted,1,The actor who visited the director demanded the starring role in the movie.,x-x-x apart pre ethical loss diseases taxation etc develops dear al eat knows.
 C,subject-extracted,7,The cowboy who killed the sheriff wore a red vest and tan hat.,x-x-x tapped mid server pre costing dose fund hear cite sad node ford.
