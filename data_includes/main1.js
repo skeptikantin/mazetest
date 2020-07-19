@@ -139,7 +139,7 @@ Template("sentences.csv", row =>
         // logs additional variables in sentence file (e.g., Fun)
         .log("Id", row.Id)
         .log("Group", row.Group)
-        .log("Type", row.Type)
+        .log("Condition", row.Condition)
     ,
     newTrial("break",
 
